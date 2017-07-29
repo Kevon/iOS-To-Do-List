@@ -9,25 +9,46 @@
 /* Begin PBXBuildFile section */
 		0AC03D281D47104F00E186EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D271D47104F00E186EB /* main.m */; };
 		0AC03D2B1D47105000E186EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D2A1D47105000E186EB /* AppDelegate.m */; };
-		0AC03D2E1D47105000E186EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D2D1D47105000E186EB /* ViewController.m */; };
 		0AC03D311D47105000E186EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC03D2F1D47105000E186EB /* Main.storyboard */; };
 		0AC03D341D47105000E186EB /* To_Do.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D321D47105000E186EB /* To_Do.xcdatamodeld */; };
 		0AC03D361D47105000E186EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC03D351D47105000E186EB /* Assets.xcassets */; };
 		0AC03D391D47105000E186EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC03D371D47105000E186EB /* LaunchScreen.storyboard */; };
+		0AC03D421D47194D00E186EB /* MyUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D411D47194D00E186EB /* MyUINavigationController.m */; };
+		0AC03D451D471AF200E186EB /* MyUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D441D471AF200E186EB /* MyUITableViewController.m */; };
+		0AC03D481D471B6000E186EB /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D471D471B6000E186EB /* MyUIViewController.m */; };
+		0AC03D4F1D4C4FFB00E186EB /* ToDoEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D4C1D4C4FFA00E186EB /* ToDoEntity+CoreDataProperties.m */; };
+		0AC03D501D4C4FFB00E186EB /* ToDoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D4E1D4C4FFA00E186EB /* ToDoEntity.m */; };
+		0AC03D531D4C546800E186EB /* MyUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC03D521D4C546800E186EB /* MyUITableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1849CC1D5047E900745E1D /* To_Do 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "To_Do 2.xcdatamodel"; sourceTree = "<group>"; };
+		0A1849CD1D5048E800745E1D /* To_Do 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "To_Do 3.xcdatamodel"; sourceTree = "<group>"; };
+		0A1849CE1D50491E00745E1D /* To_Do 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "To_Do 4.xcdatamodel"; sourceTree = "<group>"; };
+		0A1849CF1D50492C00745E1D /* To_Do 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "To_Do 5.xcdatamodel"; sourceTree = "<group>"; };
 		0AC03D231D47104F00E186EB /* To-Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC03D271D47104F00E186EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AC03D291D47104F00E186EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AC03D2A1D47105000E186EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0AC03D2C1D47105000E186EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0AC03D2D1D47105000E186EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0AC03D301D47105000E186EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AC03D331D47105000E186EB /* To_Do.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = To_Do.xcdatamodel; sourceTree = "<group>"; };
 		0AC03D351D47105000E186EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AC03D381D47105000E186EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AC03D3A1D47105000E186EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC03D401D47194D00E186EB /* MyUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUINavigationController.h; sourceTree = "<group>"; };
+		0AC03D411D47194D00E186EB /* MyUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUINavigationController.m; sourceTree = "<group>"; };
+		0AC03D431D471AF200E186EB /* MyUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUITableViewController.h; sourceTree = "<group>"; };
+		0AC03D441D471AF200E186EB /* MyUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewController.m; sourceTree = "<group>"; };
+		0AC03D461D471B6000E186EB /* MyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyUIViewController.h; path = ../MyUIViewController.h; sourceTree = "<group>"; };
+		0AC03D471D471B6000E186EB /* MyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyUIViewController.m; path = ../MyUIViewController.m; sourceTree = "<group>"; };
+		0AC03D491D471CE200E186EB /* DPHandlesMOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandlesMOC.h; sourceTree = "<group>"; };
+		0AC03D4A1D471DF900E186EB /* DPHandlesToDoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandlesToDoEntity.h; sourceTree = "<group>"; };
+		0AC03D4B1D4C4FFA00E186EB /* ToDoEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ToDoEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0AC03D4C1D4C4FFA00E186EB /* ToDoEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ToDoEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0AC03D4D1D4C4FFA00E186EB /* ToDoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoEntity.h; sourceTree = "<group>"; };
+		0AC03D4E1D4C4FFA00E186EB /* ToDoEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoEntity.m; sourceTree = "<group>"; };
+		0AC03D511D4C546800E186EB /* MyUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUITableViewCell.h; sourceTree = "<group>"; };
+		0AC03D521D4C546800E186EB /* MyUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +65,10 @@
 		0AC03D1A1D47104E00E186EB = {
 			isa = PBXGroup;
 			children = (
+				0AC03D4B1D4C4FFA00E186EB /* ToDoEntity+CoreDataProperties.h */,
+				0AC03D4C1D4C4FFA00E186EB /* ToDoEntity+CoreDataProperties.m */,
+				0AC03D4D1D4C4FFA00E186EB /* ToDoEntity.h */,
+				0AC03D4E1D4C4FFA00E186EB /* ToDoEntity.m */,
 				0AC03D251D47104F00E186EB /* To-Do */,
 				0AC03D241D47104F00E186EB /* Products */,
 			);
@@ -62,9 +87,17 @@
 			children = (
 				0AC03D291D47104F00E186EB /* AppDelegate.h */,
 				0AC03D2A1D47105000E186EB /* AppDelegate.m */,
-				0AC03D2C1D47105000E186EB /* ViewController.h */,
-				0AC03D2D1D47105000E186EB /* ViewController.m */,
 				0AC03D2F1D47105000E186EB /* Main.storyboard */,
+				0AC03D511D4C546800E186EB /* MyUITableViewCell.h */,
+				0AC03D521D4C546800E186EB /* MyUITableViewCell.m */,
+				0AC03D491D471CE200E186EB /* DPHandlesMOC.h */,
+				0AC03D4A1D471DF900E186EB /* DPHandlesToDoEntity.h */,
+				0AC03D461D471B6000E186EB /* MyUIViewController.h */,
+				0AC03D471D471B6000E186EB /* MyUIViewController.m */,
+				0AC03D431D471AF200E186EB /* MyUITableViewController.h */,
+				0AC03D441D471AF200E186EB /* MyUITableViewController.m */,
+				0AC03D401D47194D00E186EB /* MyUINavigationController.h */,
+				0AC03D411D47194D00E186EB /* MyUINavigationController.m */,
 				0AC03D351D47105000E186EB /* Assets.xcassets */,
 				0AC03D371D47105000E186EB /* LaunchScreen.storyboard */,
 				0AC03D3A1D47105000E186EB /* Info.plist */,
@@ -153,10 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC03D2E1D47105000E186EB /* ViewController.m in Sources */,
 				0AC03D2B1D47105000E186EB /* AppDelegate.m in Sources */,
 				0AC03D281D47104F00E186EB /* main.m in Sources */,
+				0AC03D531D4C546800E186EB /* MyUITableViewCell.m in Sources */,
+				0AC03D501D4C4FFB00E186EB /* ToDoEntity.m in Sources */,
+				0AC03D4F1D4C4FFB00E186EB /* ToDoEntity+CoreDataProperties.m in Sources */,
+				0AC03D481D471B6000E186EB /* MyUIViewController.m in Sources */,
+				0AC03D451D471AF200E186EB /* MyUITableViewController.m in Sources */,
 				0AC03D341D47105000E186EB /* To_Do.xcdatamodeld in Sources */,
+				0AC03D421D47194D00E186EB /* MyUINavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +345,7 @@
 				0AC03D3F1D47105000E186EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -314,9 +353,13 @@
 		0AC03D321D47105000E186EB /* To_Do.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				0A1849CF1D50492C00745E1D /* To_Do 5.xcdatamodel */,
+				0A1849CE1D50491E00745E1D /* To_Do 4.xcdatamodel */,
+				0A1849CD1D5048E800745E1D /* To_Do 3.xcdatamodel */,
+				0A1849CC1D5047E900745E1D /* To_Do 2.xcdatamodel */,
 				0AC03D331D47105000E186EB /* To_Do.xcdatamodel */,
 			);
-			currentVersion = 0AC03D331D47105000E186EB /* To_Do.xcdatamodel */;
+			currentVersion = 0A1849CF1D50492C00745E1D /* To_Do 5.xcdatamodel */;
 			path = To_Do.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
